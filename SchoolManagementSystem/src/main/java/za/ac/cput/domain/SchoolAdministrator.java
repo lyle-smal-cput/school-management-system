@@ -15,6 +15,10 @@ import java.util.Date;
 import java.util.HashMap;
 
 public class SchoolAdministrator extends Employee{
+    public SchoolAdministrator(SchoolAdministratorBuilder schoolAdministratorBuilder) {
+        super();
+    }
+
     public static class SchoolAdministratorBuilder {
         private String empNum;
         private String idNum;
@@ -101,5 +105,5 @@ public class SchoolAdministrator extends Employee{
         }
     }
 }
-}
+
 

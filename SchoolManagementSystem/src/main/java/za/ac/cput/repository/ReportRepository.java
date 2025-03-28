@@ -19,4 +19,7 @@ public class ReportRepository {
         this.reportList = reportList;
     }
 
+    public List<Report> getAll() {
+        return List.of();
+    }
 }

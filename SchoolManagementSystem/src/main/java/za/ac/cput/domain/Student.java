@@ -36,7 +36,7 @@ public class Student {
 
     }
 
-    public String getStudentID() {
+    public Student getStudentID() {
         return studentID;
     }
 
