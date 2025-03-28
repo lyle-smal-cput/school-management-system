@@ -12,12 +12,12 @@ public class Teacher extends Employee {
         this.assignedClass = builder.assignedClass;
     }
 
-    public void setHomeroom(String homeroom) {
-        this.homeroom = homeroom;
+    public String getHomeroom() {
+        return this.homeroom;
     }
 
-    public void setAssignedClass(HashMap assignedClass) {
-        this.assignedClass = assignedClass;
+    public HashMap getAssignedClass() {
+     return this.assignedClass;
     }
 
     public static class TeacherBuilder {
