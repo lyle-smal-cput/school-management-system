@@ -1,5 +1,9 @@
 package za.ac.cput.factory;
-
+/* SchoolClassFactory.java
+SchoolClass class model
+Author: Siya Rasmeni(222906073)
+Date: 28 March 2025
+*/
 
 import za.ac.cput.domain.SchoolClass;
 import za.ac.cput.domain.Subject;

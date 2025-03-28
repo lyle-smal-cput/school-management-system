@@ -1,5 +1,9 @@
 package za.ac.cput.repository;
-
+/* SchoolClassRepositoryTest.java
+RepositoryTest
+Author: Siya Rasmeni(222906073)
+Date: 28 March 2025
+*/
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.SchoolClass;
@@ -86,7 +90,12 @@ class SchoolClassRepositoryTest {
 
     @Test
     void getAll() {
-
+        repository.create(schoolClass1);
+        repository.create(schoolClass2);
+        List<SchoolClass> all = repository.getAll();
+        assertNotNull(all);
+        assertEquals(2, all.size());
+        System.out.println("All SchoolClasses: " + all);
     }
 
 }
