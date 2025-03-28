@@ -1,5 +1,9 @@
 package za.ac.cput.factory;
-
+/* TeacherFactory.java
+Teacher Factory  class
+Author: Lyle Jason Smal (223236012)
+Date: 28 March 2025
+*/
 import za.ac.cput.domain.*;
 
 import java.util.Date;
