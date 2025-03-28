@@ -4,7 +4,7 @@ import za.ac.cput.domain.*;
 
 import java.util.*;
 
-public class EmployeeRepository implements IRepository{
+public class EmployeeRepository implements IRepository<String, Employee>{
 
     private final Map<String, Employee> employeeDatabase = new HashMap<>();
 
@@ -17,22 +17,22 @@ public class EmployeeRepository implements IRepository{
     }
 
     @Override
-    public Object create(Object o) {
-        return null;
+    public String create(String s) {
+        return "";
     }
 
     @Override
-    public Object read(Object o) {
-        return null;
+    public String read(Employee employee) {
+        return "";
     }
 
     @Override
-    public Object update(Object o) {
-        return null;
+    public String update(String s) {
+        return "";
     }
 
     @Override
-    public boolean delete(Object o) {
+    public boolean delete(Employee employee) {
         return false;
     }
 }
