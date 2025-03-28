@@ -4,7 +4,7 @@ import za.ac.cput.domain.Teacher;
 
 import java.util.List;
 
-public class TeacherRepository implements IRepository, ITeacher {
+public class TeacherRepository implements IRepository<String, Teacher>, ITeacher {
 
     @Override
     public List<Teacher> getAll() {
