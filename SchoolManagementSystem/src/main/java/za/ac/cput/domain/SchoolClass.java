@@ -1,5 +1,9 @@
 package za.ac.cput.domain;
-
+/* SchoolClass.java
+SchoolClass class model
+Author: Siya Rasmeni(222906073)
+Date: 28 March 2025
+*/
 
 import java.util.List;
 import java.util.Objects;

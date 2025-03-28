@@ -1,5 +1,9 @@
 package za.ac.cput.repository;
-
+/* SchoolClassRepositoryTest.java
+RepositoryTest
+Author: Siya Rasmeni(222906073)
+Date: 28 March 2025
+*/
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.SchoolClass;
