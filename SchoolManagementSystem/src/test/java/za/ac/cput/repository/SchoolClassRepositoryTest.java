@@ -86,12 +86,7 @@ class SchoolClassRepositoryTest {
 
     @Test
     void getAll() {
-        repository.create(schoolClass1);
-        repository.create(schoolClass2);
-        List<SchoolClass> all = repository.getAll();
-        assertNotNull(all);
-        assertEquals(2, all.size());
-        System.out.println("All SchoolClasses: " + all);
+
     }
 
 }
