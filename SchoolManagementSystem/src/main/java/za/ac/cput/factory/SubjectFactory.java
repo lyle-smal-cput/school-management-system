@@ -1,6 +1,7 @@
 package za.ac.cput.factory;
 
 import za.ac.cput.domain.Subject;
+import za.ac.cput.util.Helper;
 
 public class SubjectFactory {
     public static Subject createSubject(String subjectID, String subjectName, String subjectDescription, int grade) {
