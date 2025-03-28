@@ -1,5 +1,9 @@
 package za.ac.cput.factory;
-
+/* SchoolClassFactoryTest.java
+FactoryTest
+Author: Siya Rasmeni(222906073)
+Date: 28 March 2025
+*/
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
