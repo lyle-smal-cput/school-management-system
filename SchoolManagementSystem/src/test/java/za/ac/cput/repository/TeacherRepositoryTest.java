@@ -1,5 +1,9 @@
 package za.ac.cput.repository;
-
+/* TeacherRepositoryTest.java
+Teacher Repository test  class
+Author: Lyle Jason Smal (223236012)
+Date: 28 March 2025
+*/
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
