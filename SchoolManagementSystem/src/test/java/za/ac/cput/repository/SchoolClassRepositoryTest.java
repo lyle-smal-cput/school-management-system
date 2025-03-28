@@ -96,6 +96,7 @@ class SchoolClassRepositoryTest {
         assertNotNull(all);
         assertEquals(2, all.size());
         System.out.println("All SchoolClasses: " + all);
+
     }
 
 }
