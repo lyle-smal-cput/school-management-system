@@ -1,5 +1,9 @@
 package za.ac.cput.domain;
-
+/* Teacher.java
+Teacher model class
+Author: Lyle Jason Smal (223236012)
+Date: 28 March 2025
+*/
 import java.util.Date;
 import java.util.HashMap;
 

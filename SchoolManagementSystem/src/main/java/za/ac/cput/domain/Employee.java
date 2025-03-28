@@ -1,5 +1,9 @@
 package za.ac.cput.domain;
-
+/* Employee.java
+Employee model class
+Author: Lyle Jason Smal (223236012)
+Date: 28 March 2025
+*/
 import java.util.*;
 
 public class Employee {
