@@ -97,6 +97,7 @@ class SchoolClassRepositoryTest {
         assertEquals(2, all.size());
         System.out.println("All SchoolClasses: " + all);
 
+
     }
 
 }
