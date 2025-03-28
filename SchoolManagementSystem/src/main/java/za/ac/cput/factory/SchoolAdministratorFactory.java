@@ -20,6 +20,7 @@ import java.util.HashMap;
 
 public class SchoolAdministratorFactory {
     public static SchoolAdministrator createTeacher(String empNum, String idNum, String firstName, String lastName, String gender, Date dob, Address address, String emailAddress, String contactNum, Date dateOfEmployment, Date dateOfTermination, String password) {
-        return new SchoolAdministrator.SchoolAdministratorBuilder(empNum,idNum, firstName, lastName,gender, dob, address, emailAddress, contactNum, dateOfEmployment, dateOfTermination, password).build();
+        return new SchoolAdministrator.SchoolAdministratorBuilder(empNum, idNum, firstName, lastName, gender, dob, address, emailAddress, contactNum, dateOfEmployment, dateOfTermination, password).build();
 
+    }
 }

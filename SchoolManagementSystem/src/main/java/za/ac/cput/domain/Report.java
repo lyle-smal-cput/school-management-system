@@ -19,6 +19,10 @@ public class Report {
         this.marks = builder.marks;
     }
 
+    public ThreadLocal<Object> getMarks() {
+        return null;
+    }
+
     public static class Builder {
         private HashMap<String, Integer> marks;
 
