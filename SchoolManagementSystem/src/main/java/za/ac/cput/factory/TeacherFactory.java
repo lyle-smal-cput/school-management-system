@@ -13,7 +13,7 @@ import java.util.HashMap;
 
 public class TeacherFactory {
     public static Teacher createTeacher(String empNum, String idNum, String firstName, String lastName, String gender, Date dob, Address address, String emailAddress, String contactNum, Date dateOfEmployment, Date dateOfTermination, String password, String homeroom, HashMap assignedClass) {
-        if (Helper.isNullorEmpty(empNum)||Helper.isNullorEmpty(idNum)) {
+        if (Helper.isNullorEmpty(empNum) || Helper.isNullorEmpty(idNum) || Helper.isNullorEmpty(firstName) || Helper.isNullorEmpty(lastName) || Helper.isNullorEmpty(gender) || Helper.isNullorEmpty(String.valueOf(dob)) || Helper.isNullorEmpty(address.toString()) || Helper.isNullorEmpty(emailAddress) || Helper.isNullorEmpty(contactNum) || Helper.isNullorEmpty(dateOfEmployment.toString()) || Helper.isNullorEmpty(dateOfTermination.toString()) || Helper.isNullorEmpty(password) || Helper.isNullorEmpty(homeroom)) {
             return null;
         }
 
